@@ -1,0 +1,64 @@
+{
+  "_id": "5de9f095d469c8f70360e3c9",
+  "id": "5de9f095d469c8f70360e3c9",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "65f916e4908e4f1c511f867629d0ee43": {
+      "api_name": "API_CashbackRapidOPA",
+      "api_id": "65f916e4908e4f1c511f867629d0ee43",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6c44df319ae744276fd8b7da1c2a06eb": {
+      "api_name": "API_BPM_OPA_RiskScore",
+      "api_id": "6c44df319ae744276fd8b7da1c2a06eb",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "71103f0e8eb84c237036941dd4edeb0e": {
+      "api_name": "API_WealthMaximizer",
+      "api_id": "71103f0e8eb84c237036941dd4edeb0e",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "81413c4709ad49244a9e51d143b4c9c5": {
+      "api_name": "API_InstantIssuance",
+      "api_id": "81413c4709ad49244a9e51d143b4c9c5",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "a337d3982b1c46f479948723386d55ed": {
+      "api_name": "API_IRDA Registration Calculations",
+      "api_id": "a337d3982b1c46f479948723386d55ed",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "OPA_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:39:25.048+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576492962"
+}

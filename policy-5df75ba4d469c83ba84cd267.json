@@ -1,0 +1,32 @@
+{
+  "_id": "5df75ba4d469c83ba84cd267",
+  "id": "5df75ba4d469c83ba84cd267",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "586d36e246dc4ed966562f4625183bce": {
+      "api_name": "API_Track paymnet Status",
+      "api_id": "586d36e246dc4ed966562f4625183bce",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "FinancePortal_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-16T15:55:40.157+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576495811"
+}

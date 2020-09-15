@@ -1,0 +1,96 @@
+{
+  "_id": "5df75d26d469c83ba84cd268",
+  "id": "5df75d26d469c83ba84cd268",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "020583ba7dcc488e4aa5e571b65ff0ad": {
+      "api_name": "API_Reject \u0026 Repudiate GA",
+      "api_id": "020583ba7dcc488e4aa5e571b65ff0ad",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "13d61106211149a151ab80ab60fe5384": {
+      "api_name": "API_Claim Approval GA",
+      "api_id": "13d61106211149a151ab80ab60fe5384",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "164c2cad45cb45694956a4b4c1d5b3eb": {
+      "api_name": "API_Create Payout",
+      "api_id": "164c2cad45cb45694956a4b4c1d5b3eb",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "30fe13f494bf47994e0eefbd1b9644ea": {
+      "api_name": "API_Exgratia GA",
+      "api_id": "30fe13f494bf47994e0eefbd1b9644ea",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "5c9060724d7a46e84bb6cad790aa58b8": {
+      "api_name": "API_Attach Nominee GA",
+      "api_id": "5c9060724d7a46e84bb6cad790aa58b8",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6d87e70e5d234d6e46ecb1e07333175c": {
+      "api_name": "API_Claims Registration GA",
+      "api_id": "6d87e70e5d234d6e46ecb1e07333175c",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "e1e4531a2bc4472a67e002855b2e3864": {
+      "api_name": "API_Update Nominee \u0026 Bank Details",
+      "api_id": "e1e4531a2bc4472a67e002855b2e3864",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "ebd5b2cb67e442025fed61c952818a52": {
+      "api_name": "API_Dedupe Claims",
+      "api_id": "ebd5b2cb67e442025fed61c952818a52",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "f6770d0132304d687d69b4c9bb8e00fa": {
+      "api_name": "API_Client Creation",
+      "api_id": "f6770d0132304d687d69b4c9bb8e00fa",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "GA Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-16T16:02:06.94+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576492376"
+}

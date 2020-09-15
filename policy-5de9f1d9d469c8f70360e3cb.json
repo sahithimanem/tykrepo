@@ -1,0 +1,208 @@
+{
+  "_id": "5de9f1d9d469c8f70360e3cb",
+  "id": "5de9f1d9d469c8f70360e3cb",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "03c68315b2e641c35471937b3be06271": {
+      "api_name": "API_Attach Nominee LA",
+      "api_id": "03c68315b2e641c35471937b3be06271",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "0570d2bae47b4ec7529ee7fcb1e8b8cf": {
+      "api_name": "API_UW_underwriting",
+      "api_id": "0570d2bae47b4ec7529ee7fcb1e8b8cf",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "06481aa16e61445d5bdf29a6cf71a981": {
+      "api_name": "API_OnlineReceipting",
+      "api_id": "06481aa16e61445d5bdf29a6cf71a981",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "164c2cad45cb45694956a4b4c1d5b3eb": {
+      "api_name": "API_Create Payout",
+      "api_id": "164c2cad45cb45694956a4b4c1d5b3eb",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "2f532f56f240409969a5e50d5e3e2a3e": {
+      "api_name": "API_CRMSTP_Fund",
+      "api_id": "2f532f56f240409969a5e50d5e3e2a3e",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "434d9b2ed58a472972ea4d8e1f89058d": {
+      "api_name": "API_LA(WS1)_To_CRM",
+      "api_id": "434d9b2ed58a472972ea4d8e1f89058d",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "4aa4e2cf0f564fdd66c247ed6ec00d01": {
+      "api_name": "API_contract_Modification",
+      "api_id": "4aa4e2cf0f564fdd66c247ed6ec00d01",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6e5a9158df694dae5ba9846a70c46696": {
+      "api_name": "API_Registration NAV",
+      "api_id": "6e5a9158df694dae5ba9846a70c46696",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6eab2fe81b604dac6c7f7e138a2df012": {
+      "api_name": "API_Reject and repudiate LA",
+      "api_id": "6eab2fe81b604dac6c7f7e138a2df012",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "7ef75b49f7cc4a1444292f73c64b0272": {
+      "api_name": "API_ClientCreation",
+      "api_id": "7ef75b49f7cc4a1444292f73c64b0272",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "8537526b4efd4d4c4041454cf9a606a9": {
+      "api_name": "API_Claims Registration LA",
+      "api_id": "8537526b4efd4d4c4041454cf9a606a9",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "a0b43484e7cb4b53542b90eb53cfe2a3": {
+      "api_name": "API_deDupe_details",
+      "api_id": "a0b43484e7cb4b53542b90eb53cfe2a3",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "a8aa3e3dbc6a4b3f5580fa4d75be4b49": {
+      "api_name": "API_CRMSTP_PremiumRedirection",
+      "api_id": "a8aa3e3dbc6a4b3f5580fa4d75be4b49",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "ac3684f5876943936fda12e11f81bf91": {
+      "api_name": "API_update_CFR",
+      "api_id": "ac3684f5876943936fda12e11f81bf91",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "acab10a052f04b396f0748736bf0ce88": {
+      "api_name": "API_policy_Issuance",
+      "api_id": "acab10a052f04b396f0748736bf0ce88",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "af5fbc1cbd204b394d749f74cec849c0": {
+      "api_name": "API_update_Client",
+      "api_id": "af5fbc1cbd204b394d749f74cec849c0",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "b25b40ed2d20454143d8a203d020d888": {
+      "api_name": "API_Claim Approval LA",
+      "api_id": "b25b40ed2d20454143d8a203d020d888",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "bb05d33c7d344ad7657642a0b6fb33ad": {
+      "api_name": "API_Reprint_BO",
+      "api_id": "bb05d33c7d344ad7657642a0b6fb33ad",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "bd206cc0df5045a076f00f060dcad1ba": {
+      "api_name": "API_CRMSTP_ClientChanges",
+      "api_id": "bd206cc0df5045a076f00f060dcad1ba",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c99ef403e18f432842da7a5a813dc355": {
+      "api_name": "API_contract_CreationMod",
+      "api_id": "c99ef403e18f432842da7a5a813dc355",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "e1e4531a2bc4472a67e002855b2e3864": {
+      "api_name": "API_Update Nominee \u0026 Bank Details",
+      "api_id": "e1e4531a2bc4472a67e002855b2e3864",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "ebd5b2cb67e442025fed61c952818a52": {
+      "api_name": "API_Dedupe Claims",
+      "api_id": "ebd5b2cb67e442025fed61c952818a52",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "f6770d0132304d687d69b4c9bb8e00fa": {
+      "api_name": "API_Client Creation",
+      "api_id": "f6770d0132304d687d69b4c9bb8e00fa",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "LA_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:44:49.595+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576492686"
+}

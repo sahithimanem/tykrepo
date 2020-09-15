@@ -1,0 +1,64 @@
+{
+  "_id": "5de9eb86d469c8f70360e3c2",
+  "id": "5de9eb86d469c8f70360e3c2",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "243d60817f9f460442e8171765153b4d": {
+      "api_name": "API_TrackCFR_Pts_Data",
+      "api_id": "243d60817f9f460442e8171765153b4d",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "33f3b22192354f2279b3449bc63e9f87": {
+      "api_name": "API_InsuranceKhata_PTS",
+      "api_id": "33f3b22192354f2279b3449bc63e9f87",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "365f3179964d4f8a7635dd2361382d16": {
+      "api_name": "API_InsuranceKhataPTS",
+      "api_id": "365f3179964d4f8a7635dd2361382d16",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "46b842f95e1143aa633991a105f6ddc9": {
+      "api_name": "API_RAPID_To_PTS",
+      "api_id": "46b842f95e1143aa633991a105f6ddc9",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "cdd9ea8a635e4c606c034bdb25715886": {
+      "api_name": "API_TrackCFR_PtsData",
+      "api_id": "cdd9ea8a635e4c606c034bdb25715886",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "PTS_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:17:50.66+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1580278655"
+}

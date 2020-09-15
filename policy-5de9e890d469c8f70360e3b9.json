@@ -1,0 +1,112 @@
+{
+  "_id": "5de9e890d469c8f70360e3b9",
+  "id": "5de9e890d469c8f70360e3b9",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "1c05fa40dff84a3a7360a94828063974": {
+      "api_name": "API_AgentOTP_Verification",
+      "api_id": "1c05fa40dff84a3a7360a94828063974",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "3216024b60e048834608f38020c60211": {
+      "api_name": "API_Generic_OTPGenerate_Module",
+      "api_id": "3216024b60e048834608f38020c60211",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "32b9d1ccf525410b7fd66a196390434d": {
+      "api_name": "API_GenericEncrypt",
+      "api_id": "32b9d1ccf525410b7fd66a196390434d",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "434d9b2ed58a472972ea4d8e1f89058d": {
+      "api_name": "API_LA(WS1)_To_CRM",
+      "api_id": "434d9b2ed58a472972ea4d8e1f89058d",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6691cfafcbad44734cac4b0eb016fe3f": {
+      "api_name": "API_fetchBO_details_PTS1",
+      "api_id": "6691cfafcbad44734cac4b0eb016fe3f",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6a9ac78c49e24280527b16528df932c9": {
+      "api_name": "API_AgentEnrollment",
+      "api_id": "6a9ac78c49e24280527b16528df932c9",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "a35f719a20c4400540f7dc71565139bd": {
+      "api_name": "API_OTPStatus_Module",
+      "api_id": "a35f719a20c4400540f7dc71565139bd",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "a72d68f17f6e4b47446f38b8af53ca58": {
+      "api_name": "API_IK_OTPValidate_Module",
+      "api_id": "a72d68f17f6e4b47446f38b8af53ca58",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "bb5d70605c294685483db333ad30f7d8": {
+      "api_name": "API_GenericDecrypt",
+      "api_id": "bb5d70605c294685483db333ad30f7d8",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c7795718cfd34add7f60d5112dbb4f93": {
+      "api_name": "API_IK_OTPGenerate_Module",
+      "api_id": "c7795718cfd34add7f60d5112dbb4f93",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "cbd3f53586814ec3647a9df313c83a00": {
+      "api_name": "API_Generic_OTPValidate_Module",
+      "api_id": "cbd3f53586814ec3647a9df313c83a00",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "ESB_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:05:12.001+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576492712"
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "5de9eafdd469c8f70360e3c0",
+  "id": "5de9eafdd469c8f70360e3c0",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "5fd6fea0596143fe79b3a4ea5e75db34": {
+      "api_name": "API_DownloadPolicyDoc",
+      "api_id": "5fd6fea0596143fe79b3a4ea5e75db34",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "b493e4233f0047776da46c5d8fbf4cae": {
+      "api_name": "API_STPGenericStatements",
+      "api_id": "b493e4233f0047776da46c5d8fbf4cae",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c1c5801f1b9a4f9b6d11da2b89242885": {
+      "api_name": "API_GenricDoc_OmniBPM",
+      "api_id": "c1c5801f1b9a4f9b6d11da2b89242885",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "eb0961a46d3b40ae4d4121aaea960bff": {
+      "api_name": "API_CRM_TO_OMNI",
+      "api_id": "eb0961a46d3b40ae4d4121aaea960bff",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "fd59ab93535f4e1660b525c6ae98385a": {
+      "api_name": "API_GenericDoc_Omni",
+      "api_id": "fd59ab93535f4e1660b525c6ae98385a",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "ffad662ec9cd412569f19329f619e320": {
+      "api_name": "API_CRM_TO_OMNI_Anjaneya",
+      "api_id": "ffad662ec9cd412569f19329f619e320",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "OMNI_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:15:33.681+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1582785796"
+}

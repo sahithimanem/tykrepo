@@ -1,0 +1,168 @@
+{
+  "_id": "5e562311d469c8ecb2560c16",
+  "id": "5e562311d469c8ecb2560c16",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "00f4aa1f148a48af7cdd4b8cab0eacb0": {
+      "api_name": "API_GetPolicySummary",
+      "api_id": "00f4aa1f148a48af7cdd4b8cab0eacb0",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "14038f6791a44d2f6c657b85018fafcd": {
+      "api_name": "API_EtermCRM_LeadCreation",
+      "api_id": "14038f6791a44d2f6c657b85018fafcd",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "1755238527c94b2477170cf166071998": {
+      "api_name": "API_OnlineLeadCreation",
+      "api_id": "1755238527c94b2477170cf166071998",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "1be337352da04a4a791fe5d551c89b69": {
+      "api_name": "API_IVRKhataScheduler",
+      "api_id": "1be337352da04a4a791fe5d551c89b69",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "3306a396b38a41b040217efa3484e95f": {
+      "api_name": "API_QRCView",
+      "api_id": "3306a396b38a41b040217efa3484e95f",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "4354ef9ba7e74a71688d1770e03d00a9": {
+      "api_name": "API_CreateContact",
+      "api_id": "4354ef9ba7e74a71688d1770e03d00a9",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "5459fe612bbf451a7562db472e103b3c": {
+      "api_name": "API_CustContact_Update",
+      "api_id": "5459fe612bbf451a7562db472e103b3c",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "5d3aadfc99d1423d65e3d28215fd8920": {
+      "api_name": "API_GetPolicyConfirmation",
+      "api_id": "5d3aadfc99d1423d65e3d28215fd8920",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "766f7299db1e40b756be3487afc81601": {
+      "api_name": "API_GetClientSummary",
+      "api_id": "766f7299db1e40b756be3487afc81601",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "7803ea3d1fac44ae6f3e92df1252f88e": {
+      "api_name": "API_UpdateContact",
+      "api_id": "7803ea3d1fac44ae6f3e92df1252f88e",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "7d9b67cfe4bc41555e6b611507146869": {
+      "api_name": "API_GetClientDetails",
+      "api_id": "7d9b67cfe4bc41555e6b611507146869",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "85b3da05f56c487f539ce032078ac9fa": {
+      "api_name": "API_MissCall_DiallerCRM",
+      "api_id": "85b3da05f56c487f539ce032078ac9fa",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "864566ca0e3140b56bd99cc1f8b58ead": {
+      "api_name": "API_ETerm_Status",
+      "api_id": "864566ca0e3140b56bd99cc1f8b58ead",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "9f03b2a537a84aaf65db5bdb15db1945": {
+      "api_name": "API_CreateCaseinCRM",
+      "api_id": "9f03b2a537a84aaf65db5bdb15db1945",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c1a93a3782a943a3594bd6f87a0dd26f": {
+      "api_name": "API_IVRPolicyStatus",
+      "api_id": "c1a93a3782a943a3594bd6f87a0dd26f",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c7a757faae7f4b1e568d7ccc3ec5f96f": {
+      "api_name": "API_IVRUnregisteredMobileNo",
+      "api_id": "c7a757faae7f4b1e568d7ccc3ec5f96f",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "e57bd325314142a6782dcc2fc5537af6": {
+      "api_name": "API_GetPolicyDetails",
+      "api_id": "e57bd325314142a6782dcc2fc5537af6",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "f0bb4d68da3a482e426b0620ded3a6dd": {
+      "api_name": "API_IVRMobileRegistration",
+      "api_id": "f0bb4d68da3a482e426b0620ded3a6dd",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "CRM_Policy",
+  "is_inactive": false,
+  "date_created": "2020-02-26T13:19:37.804+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1583132798"
+}

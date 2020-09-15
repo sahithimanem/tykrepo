@@ -1,0 +1,32 @@
+{
+  "_id": "5df75eb9d469c83ba84cd269",
+  "id": "5df75eb9d469c83ba84cd269",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "434d9b2ed58a472972ea4d8e1f89058d": {
+      "api_name": "API_LA(WS1)_To_CRM",
+      "api_id": "434d9b2ed58a472972ea4d8e1f89058d",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Pacesetter_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-16T16:08:49.49+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576492779"
+}

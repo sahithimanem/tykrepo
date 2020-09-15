@@ -1,0 +1,96 @@
+{
+  "_id": "5de9ed1fd469c8f70360e3c7",
+  "id": "5de9ed1fd469c8f70360e3c7",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "0267331bbcac41347545925ffe4a2cb2": {
+      "api_name": "API_IFL_SMS_IVR",
+      "api_id": "0267331bbcac41347545925ffe4a2cb2",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "3216024b60e048834608f38020c60211": {
+      "api_name": "API_Generic_OTPGenerate_Module",
+      "api_id": "3216024b60e048834608f38020c60211",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "72959b57516248f15236652b3f564014": {
+      "api_name": "API_GenrericSMS",
+      "api_id": "72959b57516248f15236652b3f564014",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "a72d68f17f6e4b47446f38b8af53ca58": {
+      "api_name": "API_IK_OTPValidate_Module",
+      "api_id": "a72d68f17f6e4b47446f38b8af53ca58",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "ac62e4f5592d41436c84fc11b10f135a": {
+      "api_name": "API_GenrericBulkSMS",
+      "api_id": "ac62e4f5592d41436c84fc11b10f135a",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c7795718cfd34add7f60d5112dbb4f93": {
+      "api_name": "API_IK_OTPGenerate_Module",
+      "api_id": "c7795718cfd34add7f60d5112dbb4f93",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "cbd3f53586814ec3647a9df313c83a00": {
+      "api_name": "API_Generic_OTPValidate_Module",
+      "api_id": "cbd3f53586814ec3647a9df313c83a00",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "d759a75f30e3489540ea2aa1ad4220cd": {
+      "api_name": "API_IVRSMSEMAIL",
+      "api_id": "d759a75f30e3489540ea2aa1ad4220cd",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "dbf1a8b2772444cf7409e7eb53318271": {
+      "api_name": "API_IVRPULLSMS",
+      "api_id": "dbf1a8b2772444cf7409e7eb53318271",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Valuefirst_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:24:39.991+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1580278882"
+}

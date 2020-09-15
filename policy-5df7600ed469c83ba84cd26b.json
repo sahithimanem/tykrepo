@@ -1,0 +1,32 @@
+{
+  "_id": "5df7600ed469c83ba84cd26b",
+  "id": "5df7600ed469c83ba84cd26b",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "3444c19df01f44604a4df8d61db0ae90": {
+      "api_name": "API_BPM_PTS_modIntegration",
+      "api_id": "3444c19df01f44604a4df8d61db0ae90",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "PTSBPMDB_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-16T16:14:30.419+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576495632"
+}

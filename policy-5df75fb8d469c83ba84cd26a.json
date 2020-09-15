@@ -1,0 +1,32 @@
+{
+  "_id": "5df75fb8d469c83ba84cd26a",
+  "id": "5df75fb8d469c83ba84cd26a",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "d6feaca8ab884df16bee92f0a8b590f2": {
+      "api_name": "API_sendPIVC_Trigger",
+      "api_id": "d6feaca8ab884df16bee92f0a8b590f2",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Pace_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-16T16:13:04.425+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576493034"
+}

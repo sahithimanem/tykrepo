@@ -1,0 +1,32 @@
+{
+  "_id": "5de9e938d469c8f70360e3bc",
+  "id": "5de9e938d469c8f70360e3bc",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "c7213a48eb9046865964fe7b964c6412": {
+      "api_name": "API_PremiumRenewalTransactions",
+      "api_id": "c7213a48eb9046865964fe7b964c6412",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "IFL_COMMON_DB_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:08:00.677+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575610724"
+}

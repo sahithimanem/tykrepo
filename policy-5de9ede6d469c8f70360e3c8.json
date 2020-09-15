@@ -1,0 +1,64 @@
+{
+  "_id": "5de9ede6d469c8f70360e3c8",
+  "id": "5de9ede6d469c8f70360e3c8",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "64154e52cc3d48a7479ce5bce29735ea": {
+      "api_name": "API_RapidVymo_CreateLead_1",
+      "api_id": "64154e52cc3d48a7479ce5bce29735ea",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "79e9d0a285b74b9c6c878fca5fa47a67": {
+      "api_name": "API_RapidVymo_CreateLead",
+      "api_id": "79e9d0a285b74b9c6c878fca5fa47a67",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "86d38952bd4941a050a6564a0cdd2d79": {
+      "api_name": "API_RapidVymo_UpdateLead",
+      "api_id": "86d38952bd4941a050a6564a0cdd2d79",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "de1124e3391843524c1ef6c1e93e752c": {
+      "api_name": "API_CRMVymo_CreateLead",
+      "api_id": "de1124e3391843524c1ef6c1e93e752c",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "e46dfd811fc7443b56ffa2da2caeaf42": {
+      "api_name": "API_CRMVymo_UpdateLead",
+      "api_id": "e46dfd811fc7443b56ffa2da2caeaf42",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "VYMO_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:27:58.241+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575611922"
+}

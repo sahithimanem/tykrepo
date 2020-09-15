@@ -1,0 +1,40 @@
+{
+  "_id": "5de9e907d469c8f70360e3bb",
+  "id": "5de9e907d469c8f70360e3bb",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "2fb452d353634f6d5f9d0a402371eda2": {
+      "api_name": "API_WhatsAppSMS",
+      "api_id": "2fb452d353634f6d5f9d0a402371eda2",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "bb2759b2ff6240254be7fe5b24a3f8f4": {
+      "api_name": "API_WhatsAppOptInOut",
+      "api_id": "bb2759b2ff6240254be7fe5b24a3f8f4",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Gupshup_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:07:11.211+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575610675"
+}

@@ -1,0 +1,220 @@
+{
+  "id": "5e6f2d49d469c810d959070a",
+  "name": "Sample_",
+  "slug": "virtual_endpoint_demo",
+  "api_id": "8165b86d2532454f6242f75a549b20d0",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "use_keyless": true,
+  "use_oauth2": false,
+  "use_openid": false,
+  "openid_options": {
+    "providers": [],
+    "segregate_by_client": false
+  },
+  "oauth_meta": {
+    "allowed_access_types": [],
+    "allowed_authorize_types": [],
+    "auth_login_redirect": ""
+  },
+  "auth": {
+    "use_param": false,
+    "param_name": "",
+    "use_cookie": false,
+    "cookie_name": "",
+    "auth_header_name": "",
+    "use_certificate": false
+  },
+  "use_basic_auth": false,
+  "basic_auth": {
+    "disable_caching": false,
+    "cache_ttl": 0
+  },
+  "use_mutual_tls_auth": false,
+  "client_certificates": [],
+  "upstream_certificates": {},
+  "pinned_public_keys": {},
+  "enable_jwt": false,
+  "use_standard_auth": false,
+  "enable_coprocess_auth": false,
+  "jwt_signing_method": "",
+  "jwt_source": "",
+  "jwt_identity_base_field": "",
+  "jwt_client_base_field": "",
+  "jwt_policy_field_name": "",
+  "jwt_issued_at_validation_skew": 0,
+  "jwt_expires_at_validation_skew": 0,
+  "jwt_not_before_validation_skew": 0,
+  "jwt_skip_kid": false,
+  "jwt_scope_to_policy_mapping": {},
+  "jwt_scope_claim_name": "",
+  "notifications": {
+    "shared_secret": "",
+    "oauth_on_keychange_url": ""
+  },
+  "enable_signature_checking": false,
+  "hmac_allowed_clock_skew": -1,
+  "hmac_allowed_algorithms": [],
+  "base_identity_provided_by": "",
+  "definition": {
+    "location": "header",
+    "key": "v1",
+    "strip_path": false
+  },
+  "version_data": {
+    "not_versioned": true,
+    "default_version": "Default",
+    "versions": {
+      "Default": {
+        "name": "Default",
+        "expires": "",
+        "paths": {
+          "ignored": [],
+          "white_list": [],
+          "black_list": []
+        },
+        "use_extended_paths": true,
+        "extended_paths": {
+          "virtual": [
+            {
+              "response_function_name": "myVirtualHandlerGetHeaders",
+              "function_source_type": "blob",
+              "function_source_uri": "ZnVuY3Rpb24gbXlWaXJ0dWFsSGFuZGxlckdldEhlYWRlcnMgKHJlcXVlc3QsIHNlc3Npb24sIGNvbmZpZykgew0KICAgdmFyIHVybD1jb25maWcuY29uZmlnX2RhdGEudGFyZ2V0VVJMMTsNCiAgIG5ld1JlcXVlc3QgPSB7DQogICAgIk1ldGhvZCI6ICJQT1NUIiwNCiAgICAiQm9keSI6IEpTT04uc3RyaW5naWZ5KHJlcXVlc3QpLA0KICAgICJIZWFkZXJzIjoge30sDQogICAgIkRvbWFpbiI6IHVybCwNCiAgICAiUmVzb3VyY2UiOiAgIiIsDQogICAgIkZvcm1EYXRhIjogeyJmaWVsZCI6ICJ2YWx1ZSJ9DQogIH07DQogIHZhciByZXNwb25zZSA9IFR5a01ha2VIdHRwUmVxdWVzdChKU09OLnN0cmluZ2lmeShuZXdSZXF1ZXN0KSk7IA0KICB2YXIgdXNhYmxlUmVzcG9uc2UgPSBKU09OLnBhcnNlKHJlc3BvbnNlKTsNCiAgdmFyIGJvZHlPYmplY3QgPSBKU09OLnBhcnNlKHVzYWJsZVJlc3BvbnNlLkJvZHkpOyANCiAgdmFyIHJlc3BvbnNlT2JqZWN0ID0gew0KICAgIEJvZHk6IHVzYWJsZVJlc3BvbnNlLkJvZHksDQogICAgSGVhZGVyczoge30sDQogICAgQ29kZTogMjAwDQogIH0NCiAgbG9nKCJSZXNwb25zZSBTZXNzaW9uIGJ5IDFzdCBhcGk6ICIgKyBKU09OLnN0cmluZ2lmeSh1c2FibGVSZXNwb25zZS5Cb2R5KSkNCiAgbG9nKCJSZXF1ZXN0IFNlc3Npb246ICIgKyBKU09OLnN0cmluZ2lmeShyZXF1ZXN0KSkNCiAgbG9nKCJSZXNwb25zZSBTZXNzaW9uOiAiICsgSlNPTi5zdHJpbmdpZnkocmVzcG9uc2VPYmplY3QpKQ0KICB2YXIgdXJsMT1jb25maWcuY29uZmlnX2RhdGEudGFyZ2V0VVJMMTsgDQogICBuZXdSZXF1ZXN0MSA9IHsNCiAgICAiTWV0aG9kIjogIlBPU1QiLA0KICAgICJCb2R5IjogSlNPTi5zdHJpbmdpZnkodXNhYmxlUmVzcG9uc2UuQm9keSksDQogICAgIkhlYWRlcnMiOiB7fSwNCiAgICAiRG9tYWluIjogdXJsMSwNCiAgICAiUmVzb3VyY2UiOiAgIiIsDQoJfTsNCgl2YXIgcmVzcG9uc2UxID0gVHlrTWFrZUh0dHBSZXF1ZXN0KEpTT04uc3RyaW5naWZ5KG5ld1JlcXVlc3QxKSk7IA0KICB2YXIgdXNhYmxlUmVzcG9uc2UxID0gSlNPTi5wYXJzZShyZXNwb25zZTEpOw0KICB2YXIgYm9keU9iamVjdDEgPSBKU09OLnBhcnNlKHVzYWJsZVJlc3BvbnNlMS5Cb2R5KTsgDQogIHZhciByZXNwb25zZU9iamVjdDEgPSB7DQogICAgQm9keTogdXNhYmxlUmVzcG9uc2UxLkJvZHksDQogICAgSGVhZGVyczoge30sDQogICAgQ29kZTogMjAwDQogIH0NCiAgbG9nKCJSZXNwb25zZTEgU2Vzc2lvbjogIiArIEpTT04uc3RyaW5naWZ5KHJlc3BvbnNlMSkpDQogICByZXR1cm4gVHlrSnNSZXNwb25zZShyZXNwb25zZU9iamVjdDEsIHNlc3Npb24ubWV0YV9kYXRhKSA7DQoNCn0=",
+              "path": "/",
+              "method": "POST",
+              "use_session": false,
+              "proxy_on_error": false
+            }
+          ]
+        },
+        "global_headers": {},
+        "global_headers_remove": [],
+        "global_size_limit": 0,
+        "override_target": ""
+      }
+    }
+  },
+  "uptime_tests": {
+    "check_list": [],
+    "config": {
+      "expire_utime_after": 0,
+      "service_discovery": {
+        "use_discovery_service": false,
+        "query_endpoint": "",
+        "use_nested_query": false,
+        "parent_data_path": "",
+        "data_path": "",
+        "port_data_path": "",
+        "target_path": "",
+        "use_target_list": false,
+        "cache_timeout": 60,
+        "endpoint_returns_list": false
+      },
+      "recheck_wait": 0
+    }
+  },
+  "proxy": {
+    "preserve_host_header": false,
+    "listen_path": "/virtual_endpoint_demo/",
+    "target_url": "http://uat.indiafirstlife.com/esbApp/bankBranchDetails",
+    "disable_strip_slash": false,
+    "strip_listen_path": true,
+    "enable_load_balancing": false,
+    "target_list": [],
+    "check_host_against_uptime_tests": false,
+    "service_discovery": {
+      "use_discovery_service": false,
+      "query_endpoint": "",
+      "use_nested_query": false,
+      "parent_data_path": "",
+      "data_path": "",
+      "port_data_path": "",
+      "target_path": "",
+      "use_target_list": false,
+      "cache_timeout": 0,
+      "endpoint_returns_list": false
+    },
+    "transport": {
+      "ssl_insecure_skip_verify": false,
+      "ssl_ciphers": [],
+      "ssl_min_version": 0,
+      "proxy_url": ""
+    }
+  },
+  "disable_rate_limit": false,
+  "disable_quota": false,
+  "custom_middleware": {
+    "pre": [],
+    "post": [],
+    "post_key_auth": [],
+    "auth_check": {
+      "name": "",
+      "path": "",
+      "require_session": false
+    },
+    "response": [],
+    "driver": "",
+    "id_extractor": {
+      "extract_from": "",
+      "extract_with": "",
+      "extractor_config": {}
+    }
+  },
+  "custom_middleware_bundle": "",
+  "cache_options": {
+    "cache_timeout": 60,
+    "enable_cache": true,
+    "cache_all_safe_requests": false,
+    "cache_response_codes": [],
+    "enable_upstream_cache_control": false,
+    "cache_control_ttl_header": ""
+  },
+  "session_lifetime": 0,
+  "active": true,
+  "auth_provider": {
+    "name": "",
+    "storage_engine": "",
+    "meta": {}
+  },
+  "session_provider": {
+    "name": "",
+    "storage_engine": "",
+    "meta": {}
+  },
+  "event_handlers": {
+    "events": {}
+  },
+  "enable_batch_request_support": false,
+  "enable_ip_whitelisting": false,
+  "allowed_ips": [],
+  "enable_ip_blacklisting": false,
+  "blacklisted_ips": [],
+  "dont_set_quota_on_create": false,
+  "expire_analytics_after": 0,
+  "response_processors": [],
+  "CORS": {
+    "enable": false,
+    "allowed_origins": [],
+    "allowed_methods": [],
+    "allowed_headers": [],
+    "exposed_headers": [],
+    "allow_credentials": false,
+    "max_age": 24,
+    "options_passthrough": false,
+    "debug": false
+  },
+  "domain": "",
+  "certificates": [],
+  "do_not_track": false,
+  "tags": [],
+  "enable_context_vars": false,
+  "config_data": {
+    "targetURL1": "http://uat.indiafirstlife.com/esbApp/bankBranchDetails",
+    "targetURL2": "http://uat.indiafirstlife.com/esbInt/ECSStatus"
+  },
+  "tag_headers": [],
+  "global_rate_limit": {
+    "rate": 0,
+    "per": 0
+  },
+  "strip_auth_data": false
+}

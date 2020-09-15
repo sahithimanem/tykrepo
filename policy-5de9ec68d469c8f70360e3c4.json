@@ -1,0 +1,40 @@
+{
+  "_id": "5de9ec68d469c8f70360e3c4",
+  "id": "5de9ec68d469c8f70360e3c4",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "8bc6d015e9fa4ce866beec54aadd0f49": {
+      "api_name": "API_Send CRC Mails Claims",
+      "api_id": "8bc6d015e9fa4ce866beec54aadd0f49",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "cb5a50b2fbd64cec4be137db93a2b3ca": {
+      "api_name": "API_GenericEmail",
+      "api_id": "cb5a50b2fbd64cec4be137db93a2b3ca",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "SMTP_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:21:36+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576493175"
+}

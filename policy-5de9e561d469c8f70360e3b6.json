@@ -1,0 +1,80 @@
+{
+  "_id": "5de9e561d469c8f70360e3b6",
+  "id": "5de9e561d469c8f70360e3b6",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "5ab38eb3966a4ffe43b710872770dbaf": {
+      "api_name": "API_Send Document Trigger",
+      "api_id": "5ab38eb3966a4ffe43b710872770dbaf",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "5cb25c88e06a4fc2423f8b35c119ca75": {
+      "api_name": "API_VendorPayoutPaymentStatus",
+      "api_id": "5cb25c88e06a4fc2423f8b35c119ca75",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "6a39be31a1524ebd7f9d516396cdfb66": {
+      "api_name": "API_GetClaimStatus",
+      "api_id": "6a39be31a1524ebd7f9d516396cdfb66",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "7101bc9d4eb643805735834a99e3bcfa": {
+      "api_name": "API_CRMStatusExposure_NB",
+      "api_id": "7101bc9d4eb643805735834a99e3bcfa",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "727ea0b8b3cc4088697fb2dba71371a5": {
+      "api_name": "API_CRMStatusExposure_Claims",
+      "api_id": "727ea0b8b3cc4088697fb2dba71371a5",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "d21a0582dd57427344b5559a3d684eff": {
+      "api_name": "API_GetClaimStatus1",
+      "api_id": "d21a0582dd57427344b5559a3d684eff",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "d368cb3222ac4de4533a7c9a188ad6de": {
+      "api_name": "API_VendorPayoutDraftVoucher",
+      "api_id": "d368cb3222ac4de4533a7c9a188ad6de",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "BPM_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T10:51:37.617+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1576491884"
+}

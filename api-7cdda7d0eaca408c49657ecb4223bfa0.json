@@ -1,0 +1,247 @@
+{
+  "id": "5e0b244fd469c8cb50c0932b",
+  "name": "Sample_Transformation",
+  "slug": "sample_transformation",
+  "api_id": "7cdda7d0eaca408c49657ecb4223bfa0",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "use_keyless": true,
+  "use_oauth2": false,
+  "use_openid": false,
+  "openid_options": {
+    "providers": [],
+    "segregate_by_client": false
+  },
+  "oauth_meta": {
+    "allowed_access_types": [],
+    "allowed_authorize_types": [],
+    "auth_login_redirect": ""
+  },
+  "auth": {
+    "use_param": false,
+    "param_name": "",
+    "use_cookie": false,
+    "cookie_name": "",
+    "auth_header_name": "",
+    "use_certificate": false
+  },
+  "use_basic_auth": false,
+  "basic_auth": {
+    "disable_caching": false,
+    "cache_ttl": 0
+  },
+  "use_mutual_tls_auth": false,
+  "client_certificates": [],
+  "upstream_certificates": {},
+  "pinned_public_keys": {},
+  "enable_jwt": false,
+  "use_standard_auth": false,
+  "enable_coprocess_auth": false,
+  "jwt_signing_method": "",
+  "jwt_source": "",
+  "jwt_identity_base_field": "",
+  "jwt_client_base_field": "",
+  "jwt_policy_field_name": "",
+  "jwt_issued_at_validation_skew": 0,
+  "jwt_expires_at_validation_skew": 0,
+  "jwt_not_before_validation_skew": 0,
+  "jwt_skip_kid": false,
+  "jwt_scope_to_policy_mapping": {},
+  "jwt_scope_claim_name": "",
+  "notifications": {
+    "shared_secret": "",
+    "oauth_on_keychange_url": ""
+  },
+  "enable_signature_checking": false,
+  "hmac_allowed_clock_skew": -1,
+  "hmac_allowed_algorithms": [],
+  "base_identity_provided_by": "",
+  "definition": {
+    "location": "header",
+    "key": "x-api-version",
+    "strip_path": false
+  },
+  "version_data": {
+    "not_versioned": true,
+    "default_version": "",
+    "versions": {
+      "Default": {
+        "name": "Default",
+        "expires": "",
+        "paths": {
+          "ignored": [],
+          "white_list": [],
+          "black_list": []
+        },
+        "use_extended_paths": true,
+        "extended_paths": {
+          "transform": [
+            {
+              "template_data": {
+                "input_type": "json",
+                "template_mode": "blob",
+                "enable_session": false,
+                "template_source": "DQo8c29hcGVudjpFbnZlbG9wZQ0KICAgIHhtbG5zOnNvYXBlbnY9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW52ZWxvcGUvIg0KICAgIHhtbG5zOnR5cD0iaHR0cDovL29yYWNsZS5jb20vZGV0ZXJtaW5hdGlvbnMvc2VydmVyLzEyLjIuMS9ydWxlYmFzZS9hc3Nlc3MvdHlwZXMiPg0KICAgIDxzb2FwZW52OkhlYWRlcj4NCiAgICAgICAgPG86U2VjdXJpdHkgc29hcGVudjptdXN0VW5kZXJzdGFuZD0iMSIgeG1sbnM6bz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzLzIwMDQvMDEvb2FzaXMtMjAwNDAxLXdzcy13c3NlY3VyaXR5LXNlY2V4dC0xLjAueHNkIj4NCiAgICAgICAgICAgIDxvOlVzZXJuYW1lVG9rZW4+DQogICAgICAgICAgICAgICAgPG86VXNlcm5hbWU+e3suYXBpVXNlcm5hbWV9fTwvbzpVc2VybmFtZT4NCiAgICAgICAgICAgICAgICA8bzpQYXNzd29yZD57ey5hcGlQYXNzd29yZH19PC9vOlBhc3N3b3JkPg0KICAgICAgICAgICAgPC9vOlVzZXJuYW1lVG9rZW4+DQogICAgICAgIDwvbzpTZWN1cml0eT4NCiAgICA8L3NvYXBlbnY6SGVhZGVyPg0KICAgIDxzb2FwZW52OkJvZHk+DQogICAgICAgIDx0eXA6YXNzZXNzLXJlcXVlc3Q+DQogICAgICAgICAgICA8dHlwOmNvbmZpZz4NCiAgICAgICAgICAgICAgICA8dHlwOm91dGNvbWU+DQogICAgICAgICAgICAgICAgICAgIDx0eXA6ZW50aXR5IGlkPSJnbG9iYWwiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzFfQU5OVUFMX0dST1NTX1BSRU1JVU0iIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLMV9JTlNUQUxMX1BSRU1JVU1fQkVGT1JFVEFYIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzFfSU5TVEFMTF9QUkVNSVVNX1RBWElOQ0xVU0lWRSIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlLW91dGNvbWUgaWQ9IlJJU0szX0FOTlVBTF9HUk9TU19QUkVNSVVNIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzNfSU5TVEFMTF9QUkVNSVVNX0JFRk9SRVRBWCIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlLW91dGNvbWUgaWQ9IlJJU0szX0lOU1RBTExfUFJFTUlVTV9UQVhJTkNMVVNJVkUiIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLNF9BTk5VQUxfR1JPU1NfUFJFTUlVTSIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlLW91dGNvbWUgaWQ9IlJJU0s0X0lOU1RBTExfUFJFTUlVTV9CRUZPUkVUQVgiIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLNF9JTlNUQUxMX1BSRU1JVU1fVEFYSU5DTFVTSVZFIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzVfQU5OVUFMX0dST1NTX1BSRU1JVU0iIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLNV9JTlNUQUxMX1BSRU1JVU1fQkVGT1JFVEFYIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzVfSU5TVEFMTF9QUkVNSVVNX1RBWElOQ0xVU0lWRSIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlLW91dGNvbWUgaWQ9IlJJU0s2X0FOTlVBTF9HUk9TU19QUkVNSVVNIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzZfSU5TVEFMTF9QUkVNSVVNX0JFRk9SRVRBWCIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlLW91dGNvbWUgaWQ9IlJJU0s2X0lOU1RBTExfUFJFTUlVTV9UQVhJTkNMVVNJVkUiIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLN19BTk5VQUxfR1JPU1NfUFJFTUlVTSIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlLW91dGNvbWUgaWQ9IlJJU0s3X0lOU1RBTExfUFJFTUlVTV9CRUZPUkVUQVgiIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLN19JTlNUQUxMX1BSRU1JVU1fVEFYSU5DTFVTSVZFIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzhfQU5OVUFMX0dST1NTX1BSRU1JVU0iIGtub3duLW91dGNvbWUtc3R5bGU9InZhbHVlLW9ubHkiIHVua25vd24tb3V0Y29tZS1zdHlsZT0iZGVjaXNpb24tcmVwb3J0Ii8+DQogICAgICAgICAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZS1vdXRjb21lIGlkPSJSSVNLOF9JTlNUQUxMX1BSRU1JVU1fQkVGT1JFVEFYIiBrbm93bi1vdXRjb21lLXN0eWxlPSJ2YWx1ZS1vbmx5IiB1bmtub3duLW91dGNvbWUtc3R5bGU9ImRlY2lzaW9uLXJlcG9ydCIvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUtb3V0Y29tZSBpZD0iUklTSzhfSU5TVEFMTF9QUkVNSVVNX1RBWElOQ0xVU0lWRSIga25vd24tb3V0Y29tZS1zdHlsZT0idmFsdWUtb25seSIgdW5rbm93bi1vdXRjb21lLXN0eWxlPSJkZWNpc2lvbi1yZXBvcnQiLz4NCiAgICAgICAgICAgICAgICAgICAgPC90eXA6ZW50aXR5Pg0KICAgICAgICAgICAgICAgIDwvdHlwOm91dGNvbWU+DQogICAgICAgICAgICA8L3R5cDpjb25maWc+DQogICAgICAgICAgICA8dHlwOmdsb2JhbC1pbnN0YW5jZT4NCiAgICAgICAgICAgICAgICA8IS0tIElucHV0IEF0dHJpYnV0ZXMgLS0+DQogICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUgaWQ9IlJJU0tfT1BUSU9OIj4NCiAgICAgICAgICAgICAgICAgICAgPG51bWJlci12YWw+e3suUklTS19PUFRJT059fTwvbnVtYmVyLXZhbD4NCiAgICAgICAgICAgICAgICA8L3R5cDphdHRyaWJ1dGU+DQogICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUgaWQ9IlBSRU1JVU1fVFlQRSI+DQogICAgICAgICAgICAgICAgICAgIDx0ZXh0LXZhbD57ey5QUkVNSVVNX1RZUEV9fTwvdGV4dC12YWw+DQogICAgICAgICAgICAgICAgPC90eXA6YXR0cmlidXRlPg0KICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlIGlkPSJHRU5ERVIiPg0KICAgICAgICAgICAgICAgICAgICA8dGV4dC12YWw+e3suR0VOREVSfX08L3RleHQtdmFsPg0KICAgICAgICAgICAgICAgIDwvdHlwOmF0dHJpYnV0ZT4NCiAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZSBpZD0iU01PS0VfSU5ESUNBVE9SIj4NCiAgICAgICAgICAgICAgICAgICAgPGJvb2xlYW4tdmFsPnt7LlNNT0tFX0lORElDQVRPUn19PC9ib29sZWFuLXZhbD4NCiAgICAgICAgICAgICAgICA8L3R5cDphdHRyaWJ1dGU+DQogICAgICAgICAgICAgICAgPHR5cDphdHRyaWJ1dGUgaWQ9IkFHRV9BVF9FTlRSWSI+DQogICAgICAgICAgICAgICAgICAgIDxudW1iZXItdmFsPnt7LkFHRV9BVF9FTlRSWX19PC9udW1iZXItdmFsPg0KICAgICAgICAgICAgICAgIDwvdHlwOmF0dHJpYnV0ZT4NCiAgICAgICAgICAgICAgICA8dHlwOmF0dHJpYnV0ZSBpZD0iUFJFTUlVTV9GUkVRIj4NCiAgICAgICAgICAgICAgICAgICAgPG51bWJlci12YWw+e3suUFJFTUlVTV9GUkVRfX08L251bWJlci12YWw+DQogICAgICAgICAgICAgICAgPC90eXA6YXR0cmlidXRlPg0KICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlIGlkPSJQT0xJQ1lfVEVSTSI+DQogICAgICAgICAgICAgICAgICAgIDxudW1iZXItdmFsPnt7LlBPTElDWV9URVJNfX08L251bWJlci12YWw+DQogICAgICAgICAgICAgICAgPC90eXA6YXR0cmlidXRlPg0KICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlIGlkPSJTVU1fQVNTVVJFRCI+DQogICAgICAgICAgICAgICAgICAgIDxudW1iZXItdmFsPnt7LlNVTV9BU1NVUkVEfX08L251bWJlci12YWw+DQogICAgICAgICAgICAgICAgPC90eXA6YXR0cmlidXRlPg0KICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlIGlkPSJDVVJSRU5UX0lOQ09NRSI+DQogICAgICAgICAgICAgICAgICAgIDxudW1iZXItdmFsPnt7LkNVUlJFTlRfSU5DT01FfX08L251bWJlci12YWw+DQogICAgICAgICAgICAgICAgPC90eXA6YXR0cmlidXRlPg0KICAgICAgICAgICAgICAgIDx0eXA6YXR0cmlidXRlIGlkPSJUSEVfU1RBVEUiPg0KICAgICAgICAgICAgICAgICAgICA8dGV4dC12YWw+e3suVEhFX1NUQVRFfX08L3RleHQtdmFsPg0KICAgICAgICAgICAgICAgIDwvdHlwOmF0dHJpYnV0ZT4NCiAgICAgICAgICAgIDwvdHlwOmdsb2JhbC1pbnN0YW5jZT4NCiAgICAgICAgPC90eXA6YXNzZXNzLXJlcXVlc3Q+DQogICAgPC9zb2FwZW52OkJvZHk+DQo8L3NvYXBlbnY6RW52ZWxvcGU+DQo="
+              },
+              "path": "/",
+              "method": "POST"
+            }
+          ],
+          "transform_headers": [
+            {
+              "delete_headers": [
+                "Content-Type"
+              ],
+              "add_headers": {
+                "Content-Type": "text/json"
+              },
+              "path": "/",
+              "method": "POST",
+              "act_on": false
+            }
+          ],
+          "transform_response_headers": [
+            {
+              "delete_headers": [],
+              "add_headers": {
+                "Content-Type": "text/json"
+              },
+              "path": "/",
+              "method": "POST",
+              "act_on": false
+            }
+          ]
+        },
+        "global_headers": {},
+        "global_headers_remove": [],
+        "global_size_limit": 0,
+        "override_target": ""
+      }
+    }
+  },
+  "uptime_tests": {
+    "check_list": [],
+    "config": {
+      "expire_utime_after": 0,
+      "service_discovery": {
+        "use_discovery_service": false,
+        "query_endpoint": "",
+        "use_nested_query": false,
+        "parent_data_path": "",
+        "data_path": "",
+        "port_data_path": "",
+        "target_path": "",
+        "use_target_list": false,
+        "cache_timeout": 60,
+        "endpoint_returns_list": false
+      },
+      "recheck_wait": 0
+    }
+  },
+  "proxy": {
+    "preserve_host_header": false,
+    "listen_path": "/sample_transformation/",
+    "target_url": "https://iflictest1.custhelp.com/determinations-server/assess/soap/generic/12.2.1/IFLOnlineTermPlan",
+    "disable_strip_slash": false,
+    "strip_listen_path": true,
+    "enable_load_balancing": false,
+    "target_list": [],
+    "check_host_against_uptime_tests": false,
+    "service_discovery": {
+      "use_discovery_service": false,
+      "query_endpoint": "",
+      "use_nested_query": false,
+      "parent_data_path": "",
+      "data_path": "",
+      "port_data_path": "",
+      "target_path": "",
+      "use_target_list": false,
+      "cache_timeout": 0,
+      "endpoint_returns_list": false
+    },
+    "transport": {
+      "ssl_insecure_skip_verify": false,
+      "ssl_ciphers": [],
+      "ssl_min_version": 0,
+      "proxy_url": ""
+    }
+  },
+  "disable_rate_limit": false,
+  "disable_quota": false,
+  "custom_middleware": {
+    "pre": [],
+    "post": [],
+    "post_key_auth": [],
+    "auth_check": {
+      "name": "",
+      "path": "",
+      "require_session": false
+    },
+    "response": [],
+    "driver": "",
+    "id_extractor": {
+      "extract_from": "",
+      "extract_with": "",
+      "extractor_config": {}
+    }
+  },
+  "custom_middleware_bundle": "",
+  "cache_options": {
+    "cache_timeout": 60,
+    "enable_cache": true,
+    "cache_all_safe_requests": false,
+    "cache_response_codes": [],
+    "enable_upstream_cache_control": false,
+    "cache_control_ttl_header": ""
+  },
+  "session_lifetime": 0,
+  "active": true,
+  "auth_provider": {
+    "name": "",
+    "storage_engine": "",
+    "meta": {}
+  },
+  "session_provider": {
+    "name": "",
+    "storage_engine": "",
+    "meta": {}
+  },
+  "event_handlers": {
+    "events": {}
+  },
+  "enable_batch_request_support": false,
+  "enable_ip_whitelisting": false,
+  "allowed_ips": [],
+  "enable_ip_blacklisting": false,
+  "blacklisted_ips": [],
+  "dont_set_quota_on_create": false,
+  "expire_analytics_after": 0,
+  "response_processors": [
+    {
+      "name": "header_injector",
+      "options": {}
+    }
+  ],
+  "CORS": {
+    "enable": false,
+    "allowed_origins": [],
+    "allowed_methods": [],
+    "allowed_headers": [],
+    "exposed_headers": [],
+    "allow_credentials": false,
+    "max_age": 24,
+    "options_passthrough": false,
+    "debug": false
+  },
+  "domain": "",
+  "certificates": [],
+  "do_not_track": false,
+  "tags": [],
+  "enable_context_vars": false,
+  "config_data": {},
+  "tag_headers": [],
+  "global_rate_limit": {
+    "rate": 0,
+    "per": 0
+  },
+  "strip_auth_data": false
+}

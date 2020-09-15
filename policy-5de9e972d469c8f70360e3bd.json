@@ -1,0 +1,32 @@
+{
+  "_id": "5de9e972d469c8f70360e3bd",
+  "id": "5de9e972d469c8f70360e3bd",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "4c482cf531e0421c606927c8e97d1f96": {
+      "api_name": "API_Move78CRMUpdateCase",
+      "api_id": "4c482cf531e0421c606927c8e97d1f96",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Move78_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:08:58.638+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575610782"
+}

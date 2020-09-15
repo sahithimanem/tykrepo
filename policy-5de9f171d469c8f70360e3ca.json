@@ -1,0 +1,32 @@
+{
+  "_id": "5de9f171d469c8f70360e3ca",
+  "id": "5de9f171d469c8f70360e3ca",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "0f9e4406fa1c4c534f8fcb1bfbf5f612": {
+      "api_name": "API_Rapid_ELMSInduction",
+      "api_id": "0f9e4406fa1c4c534f8fcb1bfbf5f612",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "ELMS_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:43:05.563+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575612829"
+}

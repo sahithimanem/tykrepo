@@ -1,0 +1,32 @@
+{
+  "_id": "5de9ec33d469c8f70360e3c3",
+  "id": "5de9ec33d469c8f70360e3c3",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "b63525a704344b0a4e37364d21b376a2": {
+      "api_name": "API_VymoRapid_LeadCreation",
+      "api_id": "b63525a704344b0a4e37364d21b376a2",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "RAPID_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:20:43.156+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575611487"
+}

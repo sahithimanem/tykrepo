@@ -1,0 +1,32 @@
+{
+  "_id": "5de9e9bad469c8f70360e3be",
+  "id": "5de9e9bad469c8f70360e3be",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "b43081f7e25a4c966bf17fc3c7201fb7": {
+      "api_name": "API_ADAuthentication",
+      "api_id": "b43081f7e25a4c966bf17fc3c7201fb7",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Neoquant_Policy",
+  "is_inactive": false,
+  "date_created": "2019-12-06T11:10:10.047+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1575610854"
+}

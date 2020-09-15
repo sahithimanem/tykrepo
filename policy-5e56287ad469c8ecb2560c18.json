@@ -1,0 +1,232 @@
+{
+  "_id": "5e56287ad469c8ecb2560c18",
+  "id": "5e56287ad469c8ecb2560c18",
+  "org_id": "5d5fcea4d469c865c5fa841b",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "276bccc3df48422f6c39038ec8840ed5": {
+      "api_name": "API_CSUP_ExistingPolicy",
+      "api_id": "276bccc3df48422f6c39038ec8840ed5",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "298e6960a73f47056ee02a226b65d3d1": {
+      "api_name": "API_Approach Note_Premium Collection",
+      "api_id": "298e6960a73f47056ee02a226b65d3d1",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "3b75083e95d64d705549155ff4aad8bc": {
+      "api_name": "API_FundIVR",
+      "api_id": "3b75083e95d64d705549155ff4aad8bc",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "3cc411bd3fb342cd4f9b28c10a1a0374": {
+      "api_name": "API_Approach Note_Validation Status",
+      "api_id": "3cc411bd3fb342cd4f9b28c10a1a0374",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "45e1cc1b66de41f550227c971d8fdd43": {
+      "api_name": "API_ESB_PRE_Branchdetails",
+      "api_id": "45e1cc1b66de41f550227c971d8fdd43",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "5101740093434f95694e24870f81005c": {
+      "api_name": "API_PREBranchDetails",
+      "api_id": "5101740093434f95694e24870f81005c",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "51a4ce55187f42ed593210faa592039b": {
+      "api_name": "API_ECSStatus",
+      "api_id": "51a4ce55187f42ed593210faa592039b",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "67d4c0a2ede9490e47da4e7e5275a3dd": {
+      "api_name": "API_Andhra Bank GCL Premium Collection",
+      "api_id": "67d4c0a2ede9490e47da4e7e5275a3dd",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "78e5d631e7fd4fee51adcedb781e30bc": {
+      "api_name": "API_Get Sales Details",
+      "api_id": "78e5d631e7fd4fee51adcedb781e30bc",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "81c15376718a475c422793d31eca6fe9": {
+      "api_name": "API_Sending Communication",
+      "api_id": "81c15376718a475c422793d31eca6fe9",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "91b0451fa34d401e4203a753de9d4ade": {
+      "api_name": "API_Andhra Bank Policy Search services",
+      "api_id": "91b0451fa34d401e4203a753de9d4ade",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "985eb90a4cbf41615aeb39eb889ba72e": {
+      "api_name": "API_PIVCStatus",
+      "api_id": "985eb90a4cbf41615aeb39eb889ba72e",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "9a949c76a22d4a73612c13932d6e6088": {
+      "api_name": "API_PolicyDetails",
+      "api_id": "9a949c76a22d4a73612c13932d6e6088",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "9abf754d1abb49145c5162b9d1a1b41b": {
+      "api_name": "API_Andhra Bank/BOB Payment Service",
+      "api_id": "9abf754d1abb49145c5162b9d1a1b41b",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "bf8fcb39fc3b49b77e83d364b1699e10": {
+      "api_name": "API_Andhra Bank Reco Service",
+      "api_id": "bf8fcb39fc3b49b77e83d364b1699e10",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "c78cdda877f84eb17b591bf6d0411267": {
+      "api_name": "API_BankInfo",
+      "api_id": "c78cdda877f84eb17b591bf6d0411267",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "d4c639543d6a4157450435b6185e1480": {
+      "api_name": "API_InsuranceKhataDedupe",
+      "api_id": "d4c639543d6a4157450435b6185e1480",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "d759a75f30e3489540ea2aa1ad4220cd": {
+      "api_name": "API_IVRSMSEMAIL",
+      "api_id": "d759a75f30e3489540ea2aa1ad4220cd",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "dbf1a8b2772444cf7409e7eb53318271": {
+      "api_name": "API_IVRPULLSMS",
+      "api_id": "dbf1a8b2772444cf7409e7eb53318271",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "dc8d06e23e1d444b639019eb6f129882": {
+      "api_name": "API_CROSS_SELL_UPSELL_Probable",
+      "api_id": "dc8d06e23e1d444b639019eb6f129882",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "e63515038fe84ae35a4f4f5c787d81e8": {
+      "api_name": "API_Get Nominee \u0026 Banking Details",
+      "api_id": "e63515038fe84ae35a4f4f5c787d81e8",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "e8668fb9001544825549e167dce15886": {
+      "api_name": "API_CrossSell_UpSell_details",
+      "api_id": "e8668fb9001544825549e167dce15886",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "eb0961a46d3b40ae4d4121aaea960bff": {
+      "api_name": "API_CRM_TO_OMNI",
+      "api_id": "eb0961a46d3b40ae4d4121aaea960bff",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "f6721e2fe643453d6c66abed0fc90da0": {
+      "api_name": "API_EBPP Service",
+      "api_id": "f6721e2fe643453d6c66abed0fc90da0",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "fca35f473d1c4ace4cec82bf79551a4b": {
+      "api_name": "API_Get Policy Details",
+      "api_id": "fca35f473d1c4ace4cec82bf79551a4b",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    },
+    "ffad662ec9cd412569f19329f619e320": {
+      "api_name": "API_CRM_TO_OMNI_Anjaneya",
+      "api_id": "ffad662ec9cd412569f19329f619e320",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "ODS_Policy",
+  "is_inactive": false,
+  "date_created": "2020-02-26T13:42:42.697+05:30",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1582785752"
+}
